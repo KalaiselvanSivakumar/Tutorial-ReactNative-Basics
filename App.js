@@ -3,9 +3,8 @@
  * @flow strict-local
  */
 
-import React from 'react';
-import type {Node} from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import React, { useState } from 'react';
+import { Text, View, Button, StyleSheet } from 'react-native';
 
 const HelloWorldApp = () => {
 	return (
@@ -22,6 +21,11 @@ const HelloWorldApp = () => {
 
 const styles = StyleSheet.create({
 	center: {
+		alignItems: "center"
+	},
+	container: {
+		flex: 1,
+		justifyContent: "center",
 		alignItems: "center"
 	}
 });
@@ -45,6 +49,21 @@ const LotsOfGreetings = () => {
 	);
 }
 
+const App = () => {
+	const [ count, setCount ] = useState(0);
+	
+	return (
+		<View style={ styles.container }>
+			<Text>You clicked { count } times.</Text>
+			<Button
+				onPress={ () => setCount(count + 1) }
+				title="Click me!"
+			/>
+		</View>
+	);
+}	
+
 // export default HelloWorldApp;
-export default LotsOfGreetings;
+// export default LotsOfGreetings;
+export default App;
 
