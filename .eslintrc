@@ -1,0 +1,8 @@
+{
+    "root": true,
+    "extends": ["@react-native-community"],
+    "rules": {
+        "quotes": [1, "single", "avoid-escape"], // specify whether double or single quotes should be used
+        "indent": [2, 2]                         // enforce 2 spaces for indents
+    }
+}
