@@ -100,6 +100,8 @@
 /**
  * Basics of React Native code block
  */
-import Cafe from './basics/ReactFundamentals';
+// import Cafe from './basics/ReactFundamentals';
+// export default Cafe;
 
-export default Cafe;
+import PizzaTranslator from './basics/HandlingTextInput';
+export default PizzaTranslator;
