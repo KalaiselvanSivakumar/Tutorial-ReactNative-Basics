@@ -106,6 +106,9 @@
 // import PizzaTranslator from './basics/HandlingTextInput';
 // export default PizzaTranslator;
 
-import ScrollViewApp from './basics/UsingAScrollView';
+// import ScrollViewApp from './basics/UsingAScrollView';
+// export default ScrollViewApp;
 
-export default ScrollViewApp;
+import FlatListBasics from './basics/UsingFlatList';
+
+export default FlatListBasics;
