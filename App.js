@@ -109,6 +109,9 @@
 // import ScrollViewApp from './basics/UsingAScrollView';
 // export default ScrollViewApp;
 
-import FlatListBasics from './basics/UsingFlatList';
+// import FlatListBasics from './basics/UsingFlatList';
+// export default FlatListBasics;
 
-export default FlatListBasics;
+import SectionListBasics from './basics/UsingSectionList';
+
+export default SectionListBasics;
